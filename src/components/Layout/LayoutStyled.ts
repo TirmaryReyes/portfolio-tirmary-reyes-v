@@ -4,7 +4,7 @@ const LayoutStyled = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 24px;
+  padding: 10px;
 `;
 
 export default LayoutStyled;
