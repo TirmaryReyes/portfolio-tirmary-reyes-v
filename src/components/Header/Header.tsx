@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom";
-import LayoutStyled from "../Layout/LayoutStyled";
+import HeaderStyled from "./HeaderStyled";
 
 const Header = (): React.ReactElement => {
   return (
-    <LayoutStyled>
+    <HeaderStyled>
       <img
         className="image-logo"
         src="/images/bars-solid.svg"
@@ -12,7 +12,7 @@ const Header = (): React.ReactElement => {
         width={30}
       />
       <Outlet />
-    </LayoutStyled>
+    </HeaderStyled>
   );
 };
 
