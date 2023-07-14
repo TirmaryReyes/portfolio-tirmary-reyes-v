@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
 import LayoutStyled from "./LayoutStyled";
-import Header from "../Header/Header";
+import NavBar from "../NavBar/NavBar";
 
 const Layout = (): React.ReactElement => {
   return (
     <>
       <LayoutStyled>
-        <Header />
+        <NavBar />
         <Outlet />
       </LayoutStyled>
     </>
