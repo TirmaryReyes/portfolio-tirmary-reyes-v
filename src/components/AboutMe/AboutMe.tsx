@@ -6,7 +6,7 @@ const AboutMe = (): React.ReactElement => {
       <img
         className="photo"
         src="/images/photo-tirmary.svg"
-        alt="home"
+        alt="tirmary img"
         height={250}
         width={305}
       />
