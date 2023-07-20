@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-
 *,
 ::before,
 ::after {
@@ -9,41 +8,29 @@ const GlobalStyle = createGlobalStyle`
 }
 
 html {
-  font-family: "Montserrat";
-  
+  font-family: ${(props) => props.theme.fonts.primary};
 }
 
-body {
-  margin: 0;
-}
-
+body,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
-p {
+h4 {
   margin: 0;
-  font: inherit;
+  padding: 0;
 }
 
 ul {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
 }
 
-button {
-  font: inherit;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-input, textarea {
-  font: inherit;
-  border: none;
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
 }
 
 a {
@@ -51,9 +38,14 @@ a {
   color: inherit;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
 img {
   max-width: 100%;
-  cursor: pointer;
 }
 `;
 

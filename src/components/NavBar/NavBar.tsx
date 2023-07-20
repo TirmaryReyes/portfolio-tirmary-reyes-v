@@ -1,5 +1,3 @@
-import React from "react";
-
 import NavBarStyled from "./NavBarStyled";
 
 const NavBar = (): React.ReactElement => {
@@ -14,6 +12,7 @@ const NavBar = (): React.ReactElement => {
           width={30}
         />
       </a>
+
       <a href="/about">
         <img
           className="about me"
@@ -23,6 +22,7 @@ const NavBar = (): React.ReactElement => {
           width={30}
         />
       </a>
+
       <a href="/stack">
         <img
           className="stack"
@@ -32,6 +32,7 @@ const NavBar = (): React.ReactElement => {
           width={30}
         />
       </a>
+
       <a href="/project">
         <img
           className="my-project"
@@ -41,6 +42,7 @@ const NavBar = (): React.ReactElement => {
           width={30}
         />
       </a>
+
       <a href="/contact">
         <img
           className="contact-me"
