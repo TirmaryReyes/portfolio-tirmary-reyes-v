@@ -38,6 +38,7 @@ button {
   font: inherit;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 input, textarea {
@@ -52,6 +53,7 @@ a {
 
 img {
   max-width: 100%;
+  cursor: pointer;
 }
 `;
 
