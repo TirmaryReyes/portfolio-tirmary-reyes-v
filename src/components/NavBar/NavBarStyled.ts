@@ -7,7 +7,7 @@ const NavBarStyled = styled.nav`
   flex-direction: row;
   align-items: center;
   gap: 23px;
-  background-color: ${(props) => props.theme.colors.secondary};
+  background-color: #396f84;
 `;
 
 export default NavBarStyled;

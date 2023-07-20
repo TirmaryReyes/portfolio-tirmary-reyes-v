@@ -4,9 +4,9 @@ const AboutMeStyled = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  color: ${(props) => props.theme.colors.primaryLight};
+  color: #fff;
   padding: 20px;
-  background-color: ${(props) => props.theme.colors.primary};
+  background-color: #1a6173;
 `;
 
 export default AboutMeStyled;
