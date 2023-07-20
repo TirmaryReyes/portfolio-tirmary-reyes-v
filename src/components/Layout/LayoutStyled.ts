@@ -5,6 +5,7 @@ const LayoutStyled = styled.div`
   flex-direction: column;
   min-height: 100vh;
   padding: 10px;
+  background-color: #396f84;
 `;
 
 export default LayoutStyled;
