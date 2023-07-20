@@ -5,6 +5,8 @@ import NavBarStyled from "./NavBarStyled";
 const NavBar = (): React.ReactElement => {
   return (
     <NavBarStyled>
+      <span className="name-person">I am Tirmary Reyes</span>
+      <span className="profession"> Full stack developer</span>
       <a href="/">
         <img
           className="home"
