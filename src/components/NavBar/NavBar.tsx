@@ -1,12 +1,8 @@
-import React from "react";
-
 import NavBarStyled from "./NavBarStyled";
 
 const NavBar = (): React.ReactElement => {
   return (
     <NavBarStyled>
-      <span className="name-person">I am Tirmary Reyes</span>
-      <span className="profession"> Full stack developer</span>
       <a href="/">
         <img
           className="home"
@@ -16,6 +12,7 @@ const NavBar = (): React.ReactElement => {
           width={30}
         />
       </a>
+
       <a href="/about">
         <img
           className="about me"
@@ -25,6 +22,7 @@ const NavBar = (): React.ReactElement => {
           width={30}
         />
       </a>
+
       <a href="/stack">
         <img
           className="stack"
@@ -34,6 +32,7 @@ const NavBar = (): React.ReactElement => {
           width={30}
         />
       </a>
+
       <a href="/project">
         <img
           className="my-project"
@@ -43,6 +42,7 @@ const NavBar = (): React.ReactElement => {
           width={30}
         />
       </a>
+
       <a href="/contact">
         <img
           className="contact-me"

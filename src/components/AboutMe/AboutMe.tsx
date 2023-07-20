@@ -1,14 +1,18 @@
+import AboutMeStyled from "./AboutMeStyled";
+
 const AboutMe = (): React.ReactElement => {
   return (
-    <div id="about-me">
+    <AboutMeStyled id="about-me">
       <img
         className="photo"
         src="/images/photo-tirmary.svg"
         alt="home"
         height={250}
         width={305}
-      ></img>
+      />
+
       <h2>About Me</h2>
+
       <p>
         I am a passionate web developer with a background in System Engineering
         and experience from a web development bootcamp. I constantly strive to
@@ -18,7 +22,7 @@ const AboutMe = (): React.ReactElement => {
         communication and teamwork. Moreover, I strongly support the principles
         of writing maintainable code and ensuring scalability
       </p>
-    </div>
+    </AboutMeStyled>
   );
 };
 

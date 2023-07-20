@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 const NavBarStyled = styled.nav`
-  padding-top: 10px;
+  padding: 15px 0 15px 15px;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  background-color: #396f84;
+  gap: 23px;
+  background-color: ${(props) => props.theme.colors.secondary};
 `;
 
 export default NavBarStyled;
