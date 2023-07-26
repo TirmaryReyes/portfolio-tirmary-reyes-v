@@ -2,7 +2,7 @@ import AboutMeStyled from "./AboutMeStyled";
 
 const AboutMe = (): React.ReactElement => {
   return (
-    <AboutMeStyled id="about-me">
+    <AboutMeStyled>
       <img
         className="photo"
         src="/images/photo-tirmary.svg"
@@ -10,9 +10,9 @@ const AboutMe = (): React.ReactElement => {
         height={250}
         width={305}
       />
-
-      <h2>About Me</h2>
-
+      <div className="about-title">
+        <h2>About Me</h2>
+      </div>
       <p>
         I am a passionate web developer with a background in System Engineering
         and experience from a web development bootcamp. I constantly strive to
