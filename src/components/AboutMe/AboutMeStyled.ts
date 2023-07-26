@@ -7,6 +7,13 @@ const AboutMeStyled = styled.div`
   color: #fff;
   padding: 20px;
   background-color: #1a6173;
+
+  .about-title {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 16px;
+  }
 `;
 
 export default AboutMeStyled;
