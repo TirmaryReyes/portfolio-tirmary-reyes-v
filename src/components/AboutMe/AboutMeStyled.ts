@@ -8,11 +8,24 @@ const AboutMeStyled = styled.div`
   padding: 20px;
   background-color: #1a6173;
 
-  .about-title {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
+  @media (max-width: 768px) {
+    padding: 20px;
     font-size: 16px;
+  }
+
+  @media (max-width: 480px) {
+    .about-title {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+  }
+
+  .photo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
   }
 `;
 

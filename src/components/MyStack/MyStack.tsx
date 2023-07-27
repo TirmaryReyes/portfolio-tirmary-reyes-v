@@ -1,7 +1,9 @@
+import MyStackStyled from "./myStackStyled";
+
 const MyStack = (): React.ReactElement => {
   return (
-    <>
-      <span>My Stack</span>
+    <MyStackStyled>
+      <span className="title-myStack">My Stack</span>
       <div className="logo-stack">
         <img
           src="/images/javascript.svg"
@@ -25,6 +27,7 @@ const MyStack = (): React.ReactElement => {
           height={30}
           width={30}
         />
+
         <img src="/images/figma.svg" alt="figma logo" height={30} width={30} />
         <img src="/images/sass.svg" alt="sass logo" height={30} width={30} />
         <img src="/images/next.svg" alt="next logo" height={30} width={30} />
@@ -43,7 +46,7 @@ const MyStack = (): React.ReactElement => {
           width={30}
         />
       </div>
-    </>
+    </MyStackStyled>
   );
 };
 
