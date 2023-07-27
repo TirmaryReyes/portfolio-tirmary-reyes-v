@@ -40,7 +40,6 @@ a {
 }
 
 button {
-  cursor: pointer;
   border: none;
   padding: 0;
 }

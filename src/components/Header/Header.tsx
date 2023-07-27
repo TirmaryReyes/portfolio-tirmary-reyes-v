@@ -43,7 +43,7 @@ const Header = (): React.ReactElement => {
         >
           <img
             className="image-logo__twitter"
-            src="/images/twitter.png"
+            src="/images/twitter.svg"
             alt="twitter logo"
             height={30}
             width={30}
