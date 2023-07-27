@@ -17,7 +17,7 @@ const Header = (): React.ReactElement => {
         >
           <img
             className="image-logo__github"
-            src="/images/github.svg"
+            src="/images/github-logo.svg"
             alt="github logo"
             height={30}
             width={30}
