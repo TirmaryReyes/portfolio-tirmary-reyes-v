@@ -1,4 +1,4 @@
-import MyStackStyled from "./myStackStyled";
+import MyStackStyled from "./MyStackStyled";
 
 const MyStack = (): React.ReactElement => {
   return (
