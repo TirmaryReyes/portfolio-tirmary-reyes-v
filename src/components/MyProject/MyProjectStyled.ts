@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const MyProjectStyled = styled.div`
   min-height: 100vh;
-  background-color: ${(props) => props.theme.colors.primary};
-  color: ${(props) => props.theme.colors.primaryLight};
+  background-color: #1a6173;
+  color: #fff;
   margin-top: 20px;
 
   .title {
@@ -14,15 +14,15 @@ const MyProjectStyled = styled.div`
   .images-container {
     display: flex;
     justify-content: center;
-    align-items: center; /* Centrar verticalmente las imágenes */
+    align-items: center;
     margin-top: 20px;
     flex-wrap: wrap;
     padding: 20px;
   }
 
   .go-to-project {
-    font-size: ${(props) => props.theme.fontSizes.medium};
-    font-weight: ${(props) => props.theme.fontWeigth.bold};
+    font-size: 16px;
+    font-weight: 700;
     margin: 10px;
     margin-top: 50px;
     max-width: 200px;
