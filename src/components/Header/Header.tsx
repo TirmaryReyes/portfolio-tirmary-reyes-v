@@ -19,8 +19,8 @@ const Header = (): React.ReactElement => {
             className="image-logo__github"
             src="/images/github-logo.svg"
             alt="github logo"
-            height={30}
-            width={30}
+            height={48}
+            width={48}
           />
         </a>
         <a
@@ -32,8 +32,8 @@ const Header = (): React.ReactElement => {
             className="image-logo__linkedin"
             src="/images/linkedin.svg"
             alt="linkedin logo"
-            height={30}
-            width={30}
+            height={48}
+            width={48}
           />
         </a>
         <a
@@ -45,8 +45,8 @@ const Header = (): React.ReactElement => {
             className="image-logo__twitter"
             src="/images/twitter.svg"
             alt="twitter logo"
-            height={30}
-            width={30}
+            height={48}
+            width={48}
           />
         </a>
       </div>

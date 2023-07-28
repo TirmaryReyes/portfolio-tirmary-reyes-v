@@ -4,10 +4,10 @@ const NavBarStyled = styled.nav`
   padding: 15px 0 15px 0;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 38px;
+  gap: 20px;
   background-color: #1a6173;
 `;
 

@@ -44,9 +44,6 @@ button {
   padding: 0;
 }
 
-img {
-  max-width: 100%;
-}
 `;
 
 export default GlobalStyle;
