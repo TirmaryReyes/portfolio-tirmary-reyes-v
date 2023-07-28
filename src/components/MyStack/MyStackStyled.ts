@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const MyStackStyled = styled.article`
-  min-height: 100vh;
   margin-top: 10px;
   width: 100%;
 
