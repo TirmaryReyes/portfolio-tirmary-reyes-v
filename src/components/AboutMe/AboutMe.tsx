@@ -2,7 +2,7 @@ import AboutMeStyled from "./AboutMeStyled";
 
 const AboutMe = (): React.ReactElement => {
   return (
-    <div id="about-me">
+    <div className="container" id="about-me">
       <AboutMeStyled>
         <img
           className="photo"

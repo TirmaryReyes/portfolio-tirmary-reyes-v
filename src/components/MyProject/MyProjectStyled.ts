@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const MyProjectStyled = styled.div`
   min-height: 100vh;
@@ -30,6 +31,11 @@ const MyProjectStyled = styled.div`
     padding: 20px;
   }
 
+  h2 {
+    text-align: left;
+    padding: 20px;
+  }
+
   .project {
     margin: 30px;
     max-width: 200px;
@@ -37,7 +43,20 @@ const MyProjectStyled = styled.div`
 
   .project-description {
     padding: 20px;
-    margin-top: 10px;
+  }
+
+  .project-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    // width: 200px;
+    margin: 0 auto;
+  }
+
+  .project-slide img {
+    max-width: 100%;
+    max-height: 100%;
   }
 
   @media (min-width: 520px) {

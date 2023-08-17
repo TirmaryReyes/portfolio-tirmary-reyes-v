@@ -5,8 +5,9 @@ const Header = (): React.ReactElement => {
   return (
     <HeaderStyled>
       <div className="main-title">
-        <span className="main-title__msg ">Hello!</span>
-        <h1 className="main-title__name">I am Tirmary Reyes</h1>
+        <span className="main-title__msg ">Hi I am</span>
+        <h1 className="main-title__name">Tirmary Reyes</h1>
+        <span className="main-title__profession">Systems Engineer </span>
         <span className="main-title__profession">Full stack developer</span>
       </div>
       <div className="image-logo">
