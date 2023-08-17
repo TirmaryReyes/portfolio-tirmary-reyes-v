@@ -8,6 +8,11 @@ const AboutMeStyled = styled.div`
   padding: 20px;
   background-color: #1a6173;
 
+  .container {
+    gap: 30px;
+    background-color: red;
+  }
+
   @media (max-width: 768px) {
     padding: 20px;
     font-size: 16px;

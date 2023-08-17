@@ -7,18 +7,18 @@ const HeaderStyled = styled.header`
   align-items: start;
   flex-direction: column;
   padding: 20px;
-  gap: 20px;
+  gap: 415px;
   background-color: ${(props) => props.theme.colors.secondary};
   color: ${(props) => props.theme.colors.primaryLight};
 
   .main-title {
     &__msg {
-      font-weight: bold;
       font-size: ${(props) => props.theme.fontSizes.medium};
     }
 
     &__name {
-      font-weight: ${(props) => props.theme.fontWeigth.regular};
+      font-size: ${(props) => props.theme.fontSizes.medium};
+      font-weight: ${(props) => props.theme.fontWeigth.bold};
       margin: 13px;
     }
 
