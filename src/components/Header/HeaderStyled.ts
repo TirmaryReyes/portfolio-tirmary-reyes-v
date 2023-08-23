@@ -33,7 +33,6 @@ const HeaderStyled = styled.header`
 
     &__profession,
     &__field {
-      text-decoration: underline;
       color: #fff;
       margin: 10px 15px;
       font-size: ${(props) => props.theme.fontSizes.medium};

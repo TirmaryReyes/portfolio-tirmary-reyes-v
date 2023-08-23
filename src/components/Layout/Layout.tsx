@@ -5,21 +5,19 @@ import AboutMe from "../AboutMe/AboutMe";
 import Header from "../Header/Header";
 import MyStack from "../MyStack/MyStack";
 import MyProject from "../MyProject/MyProject";
-import ProfessionalOpinions from "../ProfessionalOpinions/ProfesionalOpinions";
+import ProfessionalOpinions from "../ProfessionalOpinions/ProfessionalOpinions";
 
 const Layout = (): React.ReactElement => {
   return (
-    <>
-      <LayoutStyled>
-        <NavBar />
-        <Header />
-        <AboutMe />
-        <MyStack />
-        <MyProject />
-        <ProfessionalOpinions />
-        <Outlet />
-      </LayoutStyled>
-    </>
+    <LayoutStyled>
+      <NavBar />
+      <Header />
+      <AboutMe />
+      <MyStack />
+      <MyProject />
+      <ProfessionalOpinions />
+      <Outlet />
+    </LayoutStyled>
   );
 };
 

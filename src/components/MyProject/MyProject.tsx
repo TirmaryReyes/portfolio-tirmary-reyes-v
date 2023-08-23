@@ -18,7 +18,6 @@ const MyProject = (): React.ReactElement => {
         autoPlay
         interval={6000}
         showArrows
-        infiniteLoop
         selectedItem={0}
       >
         {images.map((image, index) => (
