@@ -14,12 +14,14 @@ const theme: DefaultTheme = {
 
   fontSizes: {
     medium: "16px",
+    bold: "25px",
     big: "48px",
   },
 
   fontWeigth: {
     regular: 400,
     medium: 500,
+    semibold: 600,
     bold: 700,
   },
 

@@ -7,8 +7,13 @@ const NavBarStyled = styled.nav`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
   background-color: #1a6173;
+
+  @media screen and (min-width: 481px) {
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
 `;
 
 export default NavBarStyled;

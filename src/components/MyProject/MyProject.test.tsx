@@ -10,7 +10,7 @@ describe("Given a MyProject Component", () => {
       expect(titleElement).toBeInTheDocument();
 
       const projectImages = screen.getAllByRole("img");
-      expect(projectImages).toHaveLength(3);
+      expect(projectImages).toHaveLength(5);
 
       const linkElement = screen.getByRole("link", { name: "Go to project" });
       expect(linkElement).toBeInTheDocument();

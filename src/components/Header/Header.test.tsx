@@ -4,8 +4,8 @@ import { screen } from "@testing-library/react";
 
 describe("Given a Header component", () => {
   describe("When it is rendered", () => {
-    test("Then it should show the message Hi I am", () => {
-      const expectedText = "Hi I am";
+    test("Then it should show the message Hello! I am", () => {
+      const expectedText = "Hello! I am";
 
       renderWithProviders(wrapWithRouter(<Header />));
 

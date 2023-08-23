@@ -9,8 +9,19 @@ const AboutMeStyled = styled.div`
   background-color: #1a6173;
 
   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 30px;
-    background-color: red;
+
+    @media (min-width: 481px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
   }
 
   @media (max-width: 768px) {
@@ -18,19 +29,15 @@ const AboutMeStyled = styled.div`
     font-size: 16px;
   }
 
-  @media (max-width: 480px) {
-    .about-title {
-      display: flex;
-      align-items: center;
-      margin-top: 20px;
-      font-size: 16px;
-    }
-  }
-
   .photo {
     display: block;
-    margin: 0 auto;
     max-width: 100%;
+  }
+
+  p {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0;
   }
 `;
 

@@ -2,30 +2,25 @@ import AboutMeStyled from "./AboutMeStyled";
 
 const AboutMe = (): React.ReactElement => {
   return (
-    <div className="container" id="about-me">
-      <AboutMeStyled>
+    <AboutMeStyled>
+      <div className="container">
         <img
           className="photo"
           src="/images/photo-tirmary.svg"
           alt="tirmary img"
           height={250}
-          width={305}
+          width={350}
         />
         <div className="about-title">
-          <h2>About Me</h2>
+          <p>
+            Passionate web developer with System Engineering background and
+            bootcamp experience. Committed to ongoing learning, staying current
+            with trends. Emphasizes quality results, agility, and collaboration.
+            Values open communication, teamwork, maintainable, scalable code.
+          </p>
         </div>
-        <p>
-          I am a passionate web developer with a background in System
-          Engineering and experience from a web development bootcamp. I
-          constantly strive to expand my knowledge and stay up-to-date with the
-          latest trends in the field. I focus on delivering high-quality
-          results, working in agile and collaborative environments. I believe in
-          the importance of open communication and teamwork. Moreover, I
-          strongly support the principles of writing maintainable code and
-          ensuring scalability
-        </p>
-      </AboutMeStyled>
-    </div>
+      </div>
+    </AboutMeStyled>
   );
 };
 

@@ -6,11 +6,12 @@ const MyStackStyled = styled.article`
 
   .title-myStack {
     padding: 20px;
+    margin-left: 20px;
     font-size: ${(props) => props.theme.fontSizes.medium};
     font-weight: ${(props) => props.theme.fontWeigth.bold};
     color: ${(props) => props.theme.colors.primary};
 
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 481px) {
       text-align: center;
     }
   }
@@ -21,13 +22,18 @@ const MyStackStyled = styled.article`
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 15px;
-    gap: 15px;
   }
 
   @media (max-width: 320px) {
     .logo-stack {
       display: block;
     }
+  }
+
+  .icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
   }
 `;
 

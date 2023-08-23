@@ -6,10 +6,12 @@ const MyProjectStyled = styled.div`
   background-color: #1a6173;
   color: #fff;
   margin-top: 20px;
+  padding: 20px;
 
   .title {
     padding: 20px;
     margin-top: 20px;
+    margin-left: 20px;
   }
 
   .images-container {
@@ -29,11 +31,13 @@ const MyProjectStyled = styled.div`
     max-width: 200px;
     text-align: center;
     padding: 20px;
+    margin-left: 20px;
   }
 
   h2 {
     text-align: left;
     padding: 20px;
+    margin-left: 20px;
   }
 
   .project {
@@ -42,7 +46,15 @@ const MyProjectStyled = styled.div`
   }
 
   .project-description {
-    padding: 20px;
+    padding: 0 10px;
+    max-width: 800px;
+    margin: 0;
+  }
+
+  @media (max-width: 481px) {
+    .project-description {
+      margin: 0;
+    }
   }
 
   .project-slide {
@@ -50,7 +62,6 @@ const MyProjectStyled = styled.div`
     justify-content: center;
     align-items: center;
     height: 500px;
-    // width: 200px;
     margin: 0 auto;
   }
 
