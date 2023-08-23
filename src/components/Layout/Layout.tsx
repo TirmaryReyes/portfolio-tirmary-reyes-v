@@ -5,6 +5,7 @@ import AboutMe from "../AboutMe/AboutMe";
 import Header from "../Header/Header";
 import MyStack from "../MyStack/MyStack";
 import MyProject from "../MyProject/MyProject";
+import ProfessionalOpinions from "../ProfessionalOpinions/ProfesionalOpinions";
 
 const Layout = (): React.ReactElement => {
   return (
@@ -15,6 +16,7 @@ const Layout = (): React.ReactElement => {
         <AboutMe />
         <MyStack />
         <MyProject />
+        <ProfessionalOpinions />
         <Outlet />
       </LayoutStyled>
     </>
