@@ -5,10 +5,30 @@ const Header = (): React.ReactElement => {
   return (
     <HeaderStyled>
       <div className="main-title">
-        <span className="main-title__msg ">Hi I am</span>
+        <span className="main-title__msg">Hello! I am</span>
         <h1 className="main-title__name">Tirmary Reyes</h1>
-        <span className="main-title__profession">Systems Engineer </span>
-        <span className="main-title__profession">Full stack developer</span>
+        <div className="main-title__profession">
+          <span className="main-title__profession-text">Systems Engineer</span>
+          <span className="graduation-cap">
+            <img
+              src="/images/graduation-hat.webp"
+              alt="graduation-cap"
+              height={30}
+              width={30}
+            />
+          </span>
+        </div>
+        <span className="main-title__field">
+          Full stack developer
+          <span className="graduation-cap">
+            <img
+              src="/images/graduation-hat.webp"
+              alt="graduation-cap"
+              height={30}
+              width={30}
+            />
+          </span>
+        </span>
       </div>
       <div className="image-logo">
         <a
@@ -51,7 +71,7 @@ const Header = (): React.ReactElement => {
           />
         </a>
       </div>
-
+      <div className="container" id="about-me"></div>
       <Outlet />
     </HeaderStyled>
   );

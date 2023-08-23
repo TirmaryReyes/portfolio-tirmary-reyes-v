@@ -15,12 +15,14 @@ declare module "styled-components" {
 
     fontSizes: {
       medium: string;
+      bold: string;
       big: string;
     };
 
     fontWeigth: {
       regular: number;
       medium: number;
+      semibold: number;
       bold: number;
     };
 

@@ -3,16 +3,6 @@ import NavBarStyled from "./NavBarStyled";
 const NavBar = (): React.ReactElement => {
   return (
     <NavBarStyled>
-      <a href="/">
-        <img
-          className="home"
-          src="/images/home.svg"
-          alt="home"
-          height={45}
-          width={45}
-        />
-      </a>
-
       <a href="/about">
         <img
           className="about me"

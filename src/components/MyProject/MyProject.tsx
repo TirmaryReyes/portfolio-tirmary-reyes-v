@@ -13,7 +13,14 @@ const MyProject = (): React.ReactElement => {
   return (
     <MyProjectStyled>
       <h1 className="title">Currently working on</h1>
-      <Carousel showThumbs={false} autoPlay interval={5000}>
+      <Carousel
+        showThumbs={false}
+        autoPlay
+        interval={6000}
+        showArrows
+        infiniteLoop
+        selectedItem={0}
+      >
         {images.map((image, index) => (
           <div key={index} className="project-slide">
             <img
