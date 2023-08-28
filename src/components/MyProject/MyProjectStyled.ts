@@ -49,10 +49,7 @@ const MyProjectStyled = styled.div`
     padding: 0 10px;
     max-width: 800px;
     margin: 0;
-  }
-
-  @media (max-width: 481px) {
-    .project-description {
+    @media (max-width: 481px) {
       margin: 0;
     }
   }

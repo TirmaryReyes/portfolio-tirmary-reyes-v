@@ -10,7 +10,7 @@ const NavBarStyled = styled.nav`
   gap: 40px;
   background-color: #1a6173;
 
-  @media screen and (min-width: 481px) {
+  @media (min-width: 481px) {
     justify-content: space-between;
     padding: 15px 20px;
   }

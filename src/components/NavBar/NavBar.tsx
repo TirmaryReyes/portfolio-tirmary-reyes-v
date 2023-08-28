@@ -8,8 +8,8 @@ const NavBar = (): React.ReactElement => {
           className="about me"
           src="/images/about.svg"
           alt="about-me"
-          height={45}
-          width={45}
+          height={48}
+          width={48}
         />
       </a>
 
@@ -18,8 +18,8 @@ const NavBar = (): React.ReactElement => {
           className="stack"
           src="/images/stack.svg"
           alt="my-stack"
-          height={45}
-          width={45}
+          height={48}
+          width={48}
         />
       </a>
 
@@ -28,8 +28,8 @@ const NavBar = (): React.ReactElement => {
           className="my-project"
           src="/images/project.svg"
           alt="my-project"
-          height={45}
-          width={45}
+          height={48}
+          width={48}
         />
       </a>
 
@@ -38,8 +38,8 @@ const NavBar = (): React.ReactElement => {
           className="contact-me"
           src="/images/contact.svg"
           alt="contact-me"
-          height={45}
-          width={45}
+          height={48}
+          width={48}
         />
       </a>
     </NavBarStyled>
