@@ -19,8 +19,8 @@ const ProfessionalOpinionsStyled = styled.div`
     max-width: 200px;
     text-align: center;
     margin-left: 30px;
-    font-size: ${(props) => props.theme.fontSizes.medium};
-    color: ${(props) => props.theme.colors.primary};
+    font-size: 16px;
+    color: #1a6173;
     margin-bottom: 10px;
   }
 
@@ -48,7 +48,7 @@ const ProfessionalOpinionsStyled = styled.div`
 
   .name {
     font-weight: bold;
-    color: ${(props) => props.theme.colors.primary};
+    color: #1a6173;
   }
 
   .opinions {
@@ -62,7 +62,7 @@ const ProfessionalOpinionsStyled = styled.div`
   }
 
   .linkedin-link {
-    color: ${(props) => props.theme.colors.primary};
+    color: #1a6173;
     text-decoration: none;
     font-weight: bold;
     padding: 20px;
