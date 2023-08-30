@@ -16,7 +16,7 @@ const MyProject = (): React.ReactElement => {
       <Carousel
         showThumbs={false}
         autoPlay
-        interval={6000}
+        interval={1000}
         showArrows
         selectedItem={0}
       >

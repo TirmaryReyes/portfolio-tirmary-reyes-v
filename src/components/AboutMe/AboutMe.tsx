@@ -8,8 +8,8 @@ const AboutMe = (): React.ReactElement => {
           className="photo"
           src="/images/photo-tirmary.svg"
           alt="tirmary img"
-          height={250}
-          width={350}
+          height={350}
+          width={450}
         />
         <div className="about-title">
           <p>

@@ -3,44 +3,11 @@ import NavBarStyled from "./NavBarStyled";
 const NavBar = (): React.ReactElement => {
   return (
     <NavBarStyled>
-      <a href="/about">
-        <img
-          className="about me"
-          src="/images/about.svg"
-          alt="about-me"
-          height={48}
-          width={48}
-        />
+      <a className="nav-link" href="#project">
+        Project
       </a>
-
-      <a href="/stack">
-        <img
-          className="stack"
-          src="/images/stack.svg"
-          alt="my-stack"
-          height={48}
-          width={48}
-        />
-      </a>
-
-      <a href="/project">
-        <img
-          className="my-project"
-          src="/images/project.svg"
-          alt="my-project"
-          height={48}
-          width={48}
-        />
-      </a>
-
-      <a href="/contact">
-        <img
-          className="contact-me"
-          src="/images/contact.svg"
-          alt="contact-me"
-          height={48}
-          width={48}
-        />
+      <a className="nav-link" href="contact">
+        Contact
       </a>
     </NavBarStyled>
   );
