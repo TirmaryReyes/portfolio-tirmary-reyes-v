@@ -13,8 +13,8 @@ const Header = (): React.ReactElement => {
           className="image-container__photo"
           src="/images/photo-tirmary.svg"
           alt="Tirmary profile"
-          width={250}
-          height={170}
+          width={350}
+          height={227}
         />
       </div>
       <Outlet />

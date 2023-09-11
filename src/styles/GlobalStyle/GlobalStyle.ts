@@ -20,7 +20,7 @@ h4 {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: "Inter";
+  font-family: "Montserrat";
   
 }
 

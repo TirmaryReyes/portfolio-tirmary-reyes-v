@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const NavBarStyled = styled.nav`
-  padding: 10px 15px 15px 0;
+  padding: 30px 15px 15px 0;
   width: 100%;
   display: flex;
   flex-wrap: wrap;

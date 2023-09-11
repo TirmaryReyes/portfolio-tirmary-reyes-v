@@ -8,11 +8,12 @@ const theme: DefaultTheme = {
   },
 
   fonts: {
-    primary: "Inter, sans-serif",
+    primary: "Montserrat, sans-serif",
   },
 
   fontSizes: {
     medium: "16px",
+    regular: "20px",
     bold: "25px",
     big: "48px",
   },
