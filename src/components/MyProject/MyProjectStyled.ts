@@ -25,55 +25,43 @@ const MyProjectStyled = styled.div`
   }
 
   .go-to-project {
+    text-decoration: underline;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
-    margin: 12px 10px 10px 10px;
     padding: 20px;
-
-    @media (min-width: 768px) {
-      margin: 10px 20px 0;
-    }
   }
 
   h2 {
     font-size: ${(props) => props.theme.fontSizes.regular};
-
-    @media (min-width: 768px) {
-      margin: 20px;
-    }
   }
 
   .project {
     margin: 30px;
     max-width: 200px;
+  }
 
-    @media (min-width: 768px) {
-      margin: 30px 20px;
+  .main-project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 20px;
+    max-width: 800px;
+
+    &__title {
+      font-weight: ${(props) => props.theme.fontWeigth.bold};
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      margin: 0 auto;
+    }
+
+    &__technologies {
+      font-size: ${(props) => props.theme.fontSizes.regular};
     }
   }
-
-  .main__project-description {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    margin: 0 auto;
-    font-size: 20px;
-    max-width: 800px;
-  }
-
-  .main__project-technologies {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    margin: 0 auto;
-    font-size: 20px;
-    max-width: 800px;
-    font-size: ${(props) => props.theme.fontSizes.regular};
-  }
-
   .project-slide {
     display: flex;
     justify-content: center;
