@@ -3,7 +3,7 @@ import ContactStyled from "./ContactStyled";
 const Contact = (): React.ReactElement => {
   return (
     <ContactStyled>
-      <span className="main-title">Let&rsquo;s connect!</span>
+      <span className="main-title">Connect with me</span>
 
       <span className="section-mail">E-mail:</span>
       <a className="nav-link" href="mailto:reyestirmary@gmail.com">
