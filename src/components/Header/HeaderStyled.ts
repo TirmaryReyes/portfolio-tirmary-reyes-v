@@ -25,12 +25,12 @@ const HeaderStyled = styled.header`
     border-radius: 10px 10px 75px 75px;
     overflow: hidden;
     position: relative;
-  }
 
-  .image-container__photo {
-    width: 250px;
-    height: 176px;
-    margin-top: 20px;
+    &__photo {
+      width: 250px;
+      height: 176px;
+      margin-top: 20px;
+    }
   }
 `;
 export default HeaderStyled;

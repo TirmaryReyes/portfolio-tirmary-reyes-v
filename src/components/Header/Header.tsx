@@ -8,11 +8,11 @@ const Header = (): React.ReactElement => {
         <span className="main-title__welcome">Hello! I am</span>
       </div>
       <div className="image-container">
-        Tirmary Reyes
+        <span>Tirmary Reyes</span>
         <img
           className="image-container__photo"
           src="/images/photo-tirmary.svg"
-          alt=""
+          alt="Tirmary profile"
           width={250}
           height={170}
         />
