@@ -10,7 +10,7 @@ const MyProject = (): React.ReactElement => {
   ];
 
   return (
-    <MyProjectStyled>
+    <MyProjectStyled id="my-project-section">
       <h1 className="title">Currently working on</h1>
       <Carousel
         showThumbs={false}
