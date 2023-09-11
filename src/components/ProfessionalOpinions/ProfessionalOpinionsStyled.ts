@@ -2,26 +2,19 @@ import styled from "styled-components";
 
 const ProfessionalOpinionsStyled = styled.div`
   padding: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  border-radius: 10px;
+  background-color: ${(props) => props.theme.colors.primary};
   text-align: center;
-  margin-top: 10px;
 
   .title-wrapper {
     margin-top: 28px;
   }
 
   .title-section {
-    font-weight: 700;
-    margin: 10px;
-    margin-top: 50px;
-    max-width: 200px;
+    font-weight: ${(props) => props.theme.fontWeigth.bold};
+    color: ${(props) => props.theme.colors.secondary};
+    font-size: ${(props) => props.theme.fontSizes.regular};
     text-align: center;
-    margin-left: 30px;
-    font-size: 16px;
-    color: #1a6173;
-    margin-bottom: 10px;
+    margin: 20px 0 40px 34px;
   }
 
   .opinion-box {
@@ -33,6 +26,7 @@ const ProfessionalOpinionsStyled = styled.div`
   }
 
   .opinion-content {
+    font-size: ${(props) => props.theme.fontSizes.regular};
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,18 +34,20 @@ const ProfessionalOpinionsStyled = styled.div`
     border-radius: 20px;
   }
 
-  .diego-photo {
+  .photo {
     margin-top: 15px;
-    max-width: 48px;
+    max-width: 108px;
     border-radius: 50%;
   }
 
   .name {
-    font-weight: bold;
-    color: #1a6173;
+    font-weight: ${(props) => props.theme.fontWeigth.bold};
+    color: ${(props) => props.theme.colors.secondary};
+    margin-bottom: 10px;
   }
 
   .opinions {
+    color: ${(props) => props.theme.colors.secondary};
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,10 +55,11 @@ const ProfessionalOpinionsStyled = styled.div`
     border-radius: 10px;
     max-width: 400px;
     margin: 0 auto;
+    line-height: 1.5;
   }
 
   .linkedin-link {
-    color: #1a6173;
+    color: ${(props) => props.theme.colors.secondary};
     text-decoration: none;
     font-weight: bold;
     padding: 20px;
