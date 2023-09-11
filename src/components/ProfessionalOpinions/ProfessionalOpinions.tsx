@@ -41,7 +41,7 @@ const ProfessionalOpinions = (): React.ReactElement => {
       <Carousel
         showThumbs={false}
         autoPlay
-        interval={1000}
+        interval={3000}
         showArrows
         selectedItem={0}
       >
