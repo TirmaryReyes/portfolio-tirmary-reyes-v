@@ -37,10 +37,8 @@ const AboutMeStyled = styled.div`
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
-      text-align: center;
       padding: 20px;
       max-width: 800px;
-      margin-left: 27px;
       font-weight: ${(props) => props.theme.fontWeigth.bold};
       font-size: ${(props) => props.theme.fontSizes.regular};
     }
