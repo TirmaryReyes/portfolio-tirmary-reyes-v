@@ -2,7 +2,7 @@ import ContactStyled from "./ContactStyled";
 
 const Contact = (): React.ReactElement => {
   return (
-    <ContactStyled>
+    <ContactStyled id="contact-section">
       <span className="main-title">Connect with me</span>
 
       <span className="section-mail">E-mail:</span>
