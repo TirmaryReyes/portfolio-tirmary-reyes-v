@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+
 *,
 ::before,
 ::after {
@@ -19,6 +20,8 @@ h4 {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  font-family: "Inter";
+  
 }
 
 ul {
