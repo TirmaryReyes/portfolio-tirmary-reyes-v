@@ -5,8 +5,7 @@ declare module "styled-components" {
     colors: {
       primary: string;
       secondary: string;
-      terciary: string;
-      primaryLight: string;
+      tertiary: string;
     };
 
     fonts: {
@@ -15,6 +14,7 @@ declare module "styled-components" {
 
     fontSizes: {
       medium: string;
+      regular: string;
       bold: string;
       big: string;
     };

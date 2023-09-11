@@ -16,7 +16,7 @@ const MyProject = (): React.ReactElement => {
       <Carousel
         showThumbs={false}
         autoPlay
-        interval={6000}
+        interval={1000}
         showArrows
         selectedItem={0}
       >
@@ -39,13 +39,17 @@ const MyProject = (): React.ReactElement => {
       >
         <h2>Go to project</h2>
       </a>
-
-      <p className="project-description">
-        Sand Rose Plant Deco: is a user-friendly CRUD application that allows
-        users to add, edit, and delete their plant collection. It leverages
-        technologies such as React, Redux, TypeScript, MongoDB, Express, and
-        Netlify to provide a seamless user experience.
-      </p>
+      <div className="main-project">
+        <span className="main-project__title"> Sand Rose Plant Deco: </span>
+        <span className="main-project__description">
+          Is a user-friendly CRUD application that allows users to add, edit,
+          and delete their plant collection.
+        </span>
+        <span className="main-project__technologies">
+          It leverages technologies such as React, Redux, TypeScript, MongoDB,
+          Express and Netlify to provide a seamless user experience.
+        </span>
+      </div>
     </MyProjectStyled>
   );
 };

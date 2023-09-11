@@ -1,4 +1,4 @@
-import "@fontsource/montserrat/400.css";
+import "@fontsource/montserrat";
 import "@fontsource/montserrat/500.css";
 import "@fontsource/montserrat/600.css";
 import "@fontsource/montserrat/700.css";
@@ -13,11 +13,11 @@ import App from "./components/App/App";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <GlobalStyle />
-      <Provider store={store}>
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
         <App />
-      </Provider>
-    </ThemeProvider>
+      </ThemeProvider>
+    </Provider>
   </React.StrictMode>
 );

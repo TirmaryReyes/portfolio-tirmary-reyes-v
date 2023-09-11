@@ -1,18 +1,20 @@
 import { render, screen } from "@testing-library/react";
 import NavBar from "./NavBar";
+import { ThemeProvider } from "styled-components";
+import theme from "../../styles/theme/theme";
 
 describe("Given a NavBar component", () => {
   describe("When it is rendered", () => {
     test("Then it should show renders the navigation links", () => {
-      render(<NavBar />);
+      render(
+        <ThemeProvider theme={theme}>
+          <NavBar />
+        </ThemeProvider>
+      );
 
-      const aboutLink = screen.getByRole("link", { name: "about-me" });
-      const stackLink = screen.getByRole("link", { name: "my-stack" });
-      const projectLink = screen.getByRole("link", { name: "my-project" });
-      const contactLink = screen.getByRole("link", { name: "contact-me" });
+      const projectLink = screen.getByRole("link", { name: "Project" });
+      const contactLink = screen.getByRole("link", { name: "Contact" });
 
-      expect(aboutLink).toBeInTheDocument();
-      expect(stackLink).toBeInTheDocument();
       expect(projectLink).toBeInTheDocument();
       expect(contactLink).toBeInTheDocument();
     });

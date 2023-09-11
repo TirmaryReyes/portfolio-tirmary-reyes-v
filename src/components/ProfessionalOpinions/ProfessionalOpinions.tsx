@@ -41,7 +41,7 @@ const ProfessionalOpinions = (): React.ReactElement => {
       <Carousel
         showThumbs={false}
         autoPlay
-        interval={6000}
+        interval={3000}
         showArrows
         selectedItem={0}
       >
@@ -49,11 +49,11 @@ const ProfessionalOpinions = (): React.ReactElement => {
           <div key={index} className="opinions-slide">
             <div className="opinion-content">
               <img
-                className="diego-photo"
+                className="photo"
                 src={opinion.imgSrc}
                 alt={opinion.name}
-                height={48}
-                width={48}
+                height={98}
+                width={98}
               />
               <span className="name">{opinion.name}</span>
               <div className="rating">

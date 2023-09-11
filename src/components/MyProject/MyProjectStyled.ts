@@ -3,41 +3,37 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const MyProjectStyled = styled.div`
   min-height: 100vh;
-  background-color: #1a6173;
-  color: #fff;
-  margin-top: 20px;
+  background-color: ${(props) => props.theme.colors.primary};
+  color: ${(props) => props.theme.colors.secondary};
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 20px;
 
   .title {
-    padding: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+    font-size: ${(props) => props.theme.fontSizes.regular};
+    text-align: center;
+    margin: 20px 0 40px 34px;
   }
 
   .images-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
     flex-wrap: wrap;
     padding: 20px;
   }
 
   .go-to-project {
+    text-decoration: underline;
+    text-align: center;
     font-size: 16px;
     font-weight: 700;
-    margin: 10px;
-    margin-top: 50px;
-    max-width: 200px;
-    text-align: center;
     padding: 20px;
-    margin-left: 20px;
   }
 
   h2 {
-    text-align: left;
-    padding: 20px;
-    margin-left: 20px;
+    font-size: ${(props) => props.theme.fontSizes.regular};
   }
 
   .project {
@@ -45,15 +41,27 @@ const MyProjectStyled = styled.div`
     max-width: 200px;
   }
 
-  .project-description {
-    padding: 0 10px;
+  .main-project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 20px;
     max-width: 800px;
-    margin: 0;
-    @media (max-width: 481px) {
-      margin: 0;
+
+    &__title {
+      font-weight: ${(props) => props.theme.fontWeigth.bold};
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      margin: 0 auto;
+    }
+
+    &__technologies {
+      font-size: ${(props) => props.theme.fontSizes.regular};
     }
   }
-
   .project-slide {
     display: flex;
     justify-content: center;

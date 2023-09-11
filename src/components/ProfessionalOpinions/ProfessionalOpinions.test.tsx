@@ -1,10 +1,16 @@
 import { render, screen } from "@testing-library/react";
 import ProfessionalOpinions from "./ProfessionalOpinions";
+import { ThemeProvider } from "styled-components";
+import theme from "../../styles/theme/theme";
 
 describe("Given a ProfessionalOpinions Component", () => {
   describe("When it is rendered", () => {
     test("Then it should show the title and opinions content", () => {
-      render(<ProfessionalOpinions />);
+      render(
+        <ThemeProvider theme={theme}>
+          <ProfessionalOpinions />
+        </ThemeProvider>
+      );
 
       const titleElement = screen.getByText("Professional Opinions");
       expect(titleElement).toBeInTheDocument();

@@ -1,15 +1,17 @@
 import styled from "styled-components";
 
 const MyStackStyled = styled.article`
-  margin-top: 10px;
   width: 100%;
+  text-align: center;
+  background-color: ${(props) => props.theme.colors.primary};
 
   .title-myStack {
-    padding: 20px;
+    text-align: center;
+    padding: 30px;
     margin-left: 20px;
-    font-size: ${(props) => props.theme.fontSizes.medium};
+    font-size: ${(props) => props.theme.fontSizes.regular};
     font-weight: ${(props) => props.theme.fontWeigth.bold};
-    color: ${(props) => props.theme.colors.primary};
+    color: ${(props) => props.theme.colors.secondary};
 
     @media screen and (min-width: 481px) {
       text-align: center;
@@ -21,6 +23,7 @@ const MyStackStyled = styled.article`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 20px;
     padding: 40px 15px;
   }
 
