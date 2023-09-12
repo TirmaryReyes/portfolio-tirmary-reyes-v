@@ -7,7 +7,7 @@ const ContactStyled = styled.article`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px 10px 10px 10px;
+  padding: 0 10px 10px 10px;
   gap: 20px;
   margin-left: 10px;
   text-align: center;
