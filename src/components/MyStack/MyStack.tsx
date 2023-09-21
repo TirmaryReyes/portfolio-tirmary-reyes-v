@@ -8,8 +8,8 @@ const MyStack = (): React.ReactElement => {
         <img
           src="/images/javascript.svg"
           alt="javascript logo"
-          height={48}
-          width={48}
+          height={50}
+          width={50}
         />
         <img
           src="/images/typeScript.svg"

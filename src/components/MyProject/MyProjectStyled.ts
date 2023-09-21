@@ -13,7 +13,7 @@ const MyProjectStyled = styled.div`
   .title {
     font-size: ${(props) => props.theme.fontSizes.regular};
     text-align: center;
-    margin: 20px 0 40px 34px;
+    margin: 20px 0 40px 0;
   }
 
   .images-container {
@@ -43,19 +43,24 @@ const MyProjectStyled = styled.div`
 
   .main-project {
     display: flex;
+    text-align: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
     margin: 0 auto;
     font-size: 20px;
     max-width: 800px;
+    line-height: 1.5;
 
     &__title {
+      
       font-weight: ${(props) => props.theme.fontWeigth.bold};
+      font-size: ${(props) => props.theme.fontSizes.regular} ;
       display: flex;
       flex-wrap: wrap;
       padding: 20px;
       margin: 0 auto;
+      
     }
 
     &__technologies {
