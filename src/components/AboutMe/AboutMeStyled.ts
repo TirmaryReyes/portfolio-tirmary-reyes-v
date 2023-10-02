@@ -4,16 +4,22 @@ const AboutMeStyled = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin-left: 15px;
   font-size: ${(props) => props.theme.fontSizes.regular};
   color: ${(props) => props.theme.colors.secondary};
   padding: 20px;
   background-color: ${(props) => props.theme.colors.primary};
+  line-height: 1.5;
 
   .main-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 18px;
+
+    .main-title__explication{
+      margin-left: 45px;
+    }
+
 
     @media (min-width: 481px) {
       flex-direction: column;
@@ -36,6 +42,7 @@ const AboutMeStyled = styled.div`
     &__studies {
       display: flex;
       flex-wrap: wrap;
+      margin-left: 45px;
       gap: 20px;
       padding: 20px;
       max-width: 800px;

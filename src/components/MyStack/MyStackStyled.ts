@@ -19,13 +19,16 @@ const MyStackStyled = styled.article`
   }
 
   .logo-stack {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 40px 15px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 20px auto 0 auto;
+      gap: 20px;
+      padding: 30px 4px 3px 52px;
+      max-width: 800px;
   }
+  
 
   @media (max-width: 320px) {
     .logo-stack {
