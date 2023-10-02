@@ -2,18 +2,16 @@ import styled from "styled-components";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const MyProjectStyled = styled.div`
-  min-height: 100vh;
   background-color: ${(props) => props.theme.colors.primary};
   color: ${(props) => props.theme.colors.secondary};
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 20px;
+  padding: 50px 0 15px 0;
 
   .title {
     font-size: ${(props) => props.theme.fontSizes.regular};
     text-align: center;
-    margin: 20px 0 40px 0;
+    margin: 20px 0 40px 0
   }
 
   .images-container {
@@ -42,19 +40,22 @@ const MyProjectStyled = styled.div`
   }
 
   .main-project {
+    text-align: center;
     display: flex;
+    align-items: center;
     text-align: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: ${(props) => props.theme.fontSizes.regular};;
     max-width: 800px;
     line-height: 1.5;
 
     &__title {
       
       font-weight: ${(props) => props.theme.fontWeigth.bold};
+      font-size: ${(props) => props.theme.fontSizes.regular};
       font-size: ${(props) => props.theme.fontSizes.regular} ;
       display: flex;
       flex-wrap: wrap;

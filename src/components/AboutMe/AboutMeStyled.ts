@@ -14,9 +14,13 @@ const AboutMeStyled = styled.div`
 
   .main-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 18px;
+
+    .main-title__explication{
+      margin-left: 45px;
+    }
+
 
     @media (min-width: 481px) {
       flex-direction: column;
@@ -45,6 +49,7 @@ const AboutMeStyled = styled.div`
     &__studies {
       display: flex;
       flex-wrap: wrap;
+      margin-left: 45px;
       gap: 20px;
       padding: 20px;
       margin-left: 60px;
