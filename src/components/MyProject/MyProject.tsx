@@ -11,8 +11,9 @@ const MyProject = (): React.ReactElement => {
 
   return (
     <MyProjectStyled id="my-project-section">
-      <h1 className="title">Currently working on</h1> 
-       <span className="main-project__title"> Sand Rose Plant Deco: </span>
+
+      <h1 className="title">Currently working on</h1>
+      <span className="main-project__title"> Sand Rose Plant Deco: </span>
       <Carousel
         showThumbs={false}
         autoPlay
@@ -30,7 +31,7 @@ const MyProject = (): React.ReactElement => {
           </div>
         ))}
       </Carousel>
-
+     
       <a
         className="go-to-project"
         href="https://tirmary-reyes-final-project-front.netlify.app/home"
@@ -40,7 +41,6 @@ const MyProject = (): React.ReactElement => {
         <h2>Go to project</h2>
       </a>
       <div className="main-project">
-      
         <span className="main-project__description">
           Is a user-friendly CRUD application that allows users to add, edit,
           and delete their plant collection.

@@ -43,6 +43,7 @@ const MyProjectStyled = styled.div`
     text-align: center;
     display: flex;
     align-items: center;
+    text-align: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
@@ -52,12 +53,15 @@ const MyProjectStyled = styled.div`
     line-height: 1.5;
 
     &__title {
+      
       font-weight: ${(props) => props.theme.fontWeigth.bold};
       font-size: ${(props) => props.theme.fontSizes.regular};
+      font-size: ${(props) => props.theme.fontSizes.regular} ;
       display: flex;
       flex-wrap: wrap;
       padding: 20px;
       margin: 0 auto;
+      
     }
 
     &__technologies {

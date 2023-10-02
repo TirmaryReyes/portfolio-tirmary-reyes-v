@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const AboutMeStyled = styled.div`
   width: 100%;
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   margin-left: 15px;
@@ -34,6 +35,12 @@ const AboutMeStyled = styled.div`
       padding: 20px;
     }
 
+    .profession {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      flex-wrap: wrap;
+
     &__graduation-cap {
       display: block;
       max-width: 100%;
@@ -45,6 +52,7 @@ const AboutMeStyled = styled.div`
       margin-left: 45px;
       gap: 20px;
       padding: 20px;
+      margin-left: 60px;
       max-width: 800px;
       font-weight: ${(props) => props.theme.fontWeigth.bold};
       font-size: ${(props) => props.theme.fontSizes.regular};
@@ -55,6 +63,7 @@ const AboutMeStyled = styled.div`
       font-size: ${(props) => props.theme.fontSizes.regular};
     }
   }
+}
 `;
 
 export default AboutMeStyled;
