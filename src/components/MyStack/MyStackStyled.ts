@@ -8,7 +8,7 @@ const MyStackStyled = styled.article`
   .title-myStack {
     text-align: center;
     padding: 30px;
-    margin-left: 20px;
+    margin: 0;
     font-size: ${(props) => props.theme.fontSizes.regular};
     font-weight: ${(props) => props.theme.fontWeigth.bold};
     color: ${(props) => props.theme.colors.secondary};
