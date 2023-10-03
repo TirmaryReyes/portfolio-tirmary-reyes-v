@@ -12,7 +12,6 @@ const MyProjectStyled = styled.div`
     font-size: ${(props) => props.theme.fontSizes.regular};
     text-align: center;
     margin: 20px 0 40px 0;
-    margin: 20px 0 40px 0;
   }
 
   .images-container {
@@ -43,41 +42,20 @@ const MyProjectStyled = styled.div`
   .main-project {
     text-align: center;
     display: flex;
-<<<<<<< Updated upstream
     align-items: center;
-=======
-<<<<<<< HEAD
-=======
-    align-items: center;
->>>>>>> 5ed6281 (Fix the alignment in MyProject component)
->>>>>>> Stashed changes
     text-align: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
     margin: 0 auto;
     font-size: ${(props) => props.theme.fontSizes.regular};
-<<<<<<< Updated upstream
-    font-size: ${(props) => props.theme.fontSizes.regular};
-=======
->>>>>>> Stashed changes
     max-width: 800px;
     line-height: 1.5;
 
     &__title {
       font-weight: ${(props) => props.theme.fontWeigth.bold};
-<<<<<<< Updated upstream
       font-size: ${(props) => props.theme.fontSizes.regular};
       font-size: ${(props) => props.theme.fontSizes.regular};
-      font-size: ${(props) => props.theme.fontSizes.regular};
-=======
-<<<<<<< HEAD
-      font-size: ${(props) => props.theme.fontSizes.regular} ;
-=======
-      font-size: ${(props) => props.theme.fontSizes.regular};
-      font-size: ${(props) => props.theme.fontSizes.regular};
->>>>>>> 5ed6281 (Fix the alignment in MyProject component)
->>>>>>> Stashed changes
       display: flex;
       flex-wrap: wrap;
       padding: 20px;
