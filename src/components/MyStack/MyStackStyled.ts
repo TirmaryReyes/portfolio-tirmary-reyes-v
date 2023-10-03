@@ -25,7 +25,7 @@ const MyStackStyled = styled.article`
     align-items: center;
     margin: 20px auto 0 auto;
     gap: 20px;
-    padding: 30px 4px 3px 52px;
+    padding: 26px 49px 3px 52px;
     max-width: 800px;
   }
 

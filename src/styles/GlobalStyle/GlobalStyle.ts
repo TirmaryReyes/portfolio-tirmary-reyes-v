@@ -6,10 +6,11 @@ const GlobalStyle = createGlobalStyle`
 ::before,
 ::after {
   box-sizing: border-box;
-}
+  }
 
 html {
   font-family: ${(props) => props.theme.fonts.primary};
+ 
 }
 
 body,

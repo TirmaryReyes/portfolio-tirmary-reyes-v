@@ -5,16 +5,16 @@ const AboutMeStyled = styled.div`
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 15px;
   font-size: ${(props) => props.theme.fontSizes.regular};
   color: ${(props) => props.theme.colors.secondary};
-  padding: 20px;
   background-color: ${(props) => props.theme.colors.primary};
   line-height: 1.5;
 
   .main-container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     gap: 18px;
 
     .main-title__explication {
@@ -22,9 +22,6 @@ const AboutMeStyled = styled.div`
     }
 
     @media (min-width: 481px) {
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
       padding: 20px;
       max-width: 800px;
       margin: 0 auto;
@@ -39,6 +36,7 @@ const AboutMeStyled = styled.div`
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+
       &__graduation-cap {
         display: block;
         max-width: 100%;
@@ -47,11 +45,8 @@ const AboutMeStyled = styled.div`
       &__studies {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 45px;
         gap: 20px;
-        padding: 20px;
-        margin-left: 60px;
-        max-width: 800px;
+        padding: 18px 36px 20px 20px;
         font-weight: ${(props) => props.theme.fontWeigth.bold};
         font-size: ${(props) => props.theme.fontSizes.regular};
       }

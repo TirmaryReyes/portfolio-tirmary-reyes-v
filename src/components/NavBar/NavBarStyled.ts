@@ -4,7 +4,6 @@ const NavBarStyled = styled.nav`
   width: 100%;
 
   .main-navBar {
-    margin-right: 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
