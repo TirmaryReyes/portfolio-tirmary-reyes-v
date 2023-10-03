@@ -13,10 +13,12 @@ font-size: ${(props) => props.theme.fontSizes.regular};
 font-weight: ${(props) => props.theme.fontWeigth.bold};
 color: ${(props) => props.theme.colors.secondary};
 
+
 @media screen and (min-width: 481px) {
 text-align: center;
 }
 }
+
 
 .logo-stack {
 display: flex;
@@ -28,6 +30,9 @@ gap: 20px;
 padding: 30px 4px 3px 52px;
 max-width: 800px;
 }
+  }
+  
+
 
 @media (max-width: 320px) {
 .logo-stack {

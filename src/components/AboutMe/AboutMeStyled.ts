@@ -17,9 +17,15 @@ const AboutMeStyled = styled.div`
     align-items: center;
     gap: 18px;
 
+
     .main-title__explication {
       margin-left: 45px;
     }
+
+    .main-title__explication{
+      margin-left: 45px;
+    }
+
 
     @media (min-width: 481px) {
       flex-direction: column;
@@ -37,8 +43,29 @@ const AboutMeStyled = styled.div`
     .profession {
       display: flex;
       justify-content: center;
+      align-items: center; 
+      flex-wrap: wrap;
+
+    &__graduation-cap {
+      display: block;
+      max-width: 100%;
+    }
+
+    &__studies {
+
+      display: flex;
+      justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+      margin-left: 45px;
+      gap: 20px;
+      padding: 20px;
+      margin-left: 60px;
+      max-width: 800px;
+      font-weight: ${(props) => props.theme.fontWeigth.bold};
+      font-size: ${(props) => props.theme.fontSizes.regular};
+    }
+
 
       &__graduation-cap {
         display: block;
@@ -63,6 +90,7 @@ const AboutMeStyled = styled.div`
       }
     }
   }
+}
 `;
 
 export default AboutMeStyled;

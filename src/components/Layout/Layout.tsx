@@ -6,6 +6,8 @@ import Header from "../Header/Header";
 import MyStack from "../MyStack/MyStack";
 import MyProject from "../MyProject/MyProject";
 import ProfessionalOpinions from "../ProfessionalOpinions/ProfessionalOpinions";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 
 const Layout = (): React.ReactElement => {
   return (
@@ -16,6 +18,8 @@ const Layout = (): React.ReactElement => {
       <MyStack />
       <MyProject />
       <ProfessionalOpinions />
+      <Contact />
+      <Footer />
       <Outlet />
     </LayoutStyled>
   );

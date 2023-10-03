@@ -15,8 +15,10 @@ const Header = (): React.ReactElement => {
           alt="Tirmary profile"
           width={350}
           height={227}
+          loading="lazy"
         />
       </div>
+
       <Outlet />
     </HeaderStyled>
   );
