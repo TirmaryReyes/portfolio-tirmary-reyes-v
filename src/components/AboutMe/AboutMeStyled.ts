@@ -39,7 +39,6 @@ const AboutMeStyled = styled.div`
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-
       &__graduation-cap {
         display: block;
         max-width: 100%;
