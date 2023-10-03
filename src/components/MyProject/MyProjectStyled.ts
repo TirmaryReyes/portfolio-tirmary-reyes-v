@@ -11,7 +11,8 @@ const MyProjectStyled = styled.div`
   .title {
     font-size: ${(props) => props.theme.fontSizes.regular};
     text-align: center;
-    margin: 20px 0 40px 0
+    margin: 20px 0 40px 0;
+    margin: 20px 0 40px 0;
   }
 
   .images-container {
@@ -48,20 +49,20 @@ const MyProjectStyled = styled.div`
     gap: 20px;
     padding: 20px;
     margin: 0 auto;
-    font-size: ${(props) => props.theme.fontSizes.regular};;
+    font-size: ${(props) => props.theme.fontSizes.regular};
+    font-size: ${(props) => props.theme.fontSizes.regular};
     max-width: 800px;
     line-height: 1.5;
 
     &__title {
-      
       font-weight: ${(props) => props.theme.fontWeigth.bold};
       font-size: ${(props) => props.theme.fontSizes.regular};
-      font-size: ${(props) => props.theme.fontSizes.regular} ;
+      font-size: ${(props) => props.theme.fontSizes.regular};
+      font-size: ${(props) => props.theme.fontSizes.regular};
       display: flex;
       flex-wrap: wrap;
       padding: 20px;
       margin: 0 auto;
-      
     }
 
     &__technologies {

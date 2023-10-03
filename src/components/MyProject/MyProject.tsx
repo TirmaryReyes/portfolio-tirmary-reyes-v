@@ -11,7 +11,6 @@ const MyProject = (): React.ReactElement => {
 
   return (
     <MyProjectStyled id="my-project-section">
-
       <h1 className="title">Currently working on</h1>
       <span className="main-project__title"> Sand Rose Plant Deco: </span>
       <Carousel
@@ -31,7 +30,6 @@ const MyProject = (): React.ReactElement => {
           </div>
         ))}
       </Carousel>
-     
       <a
         className="go-to-project"
         href="https://tirmary-reyes-final-project-front.netlify.app/home"

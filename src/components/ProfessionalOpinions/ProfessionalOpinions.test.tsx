@@ -29,8 +29,7 @@ describe("Given a ProfessionalOpinions Component", () => {
         {
           name: "Gina Marieges Rosés",
           content: `"Tirmary is a fighter, a hard worker, resilient and a empathic woman. She always take's care of the team. It has truly been a privilege to have had the opportunity to collaborate with her."`,
-          linkedIn:
-            "https://www.linkedin.com/in/tirmary-reyes/",
+          linkedIn: "https://www.linkedin.com/in/tirmary-reyes/",
         },
       ];
 
