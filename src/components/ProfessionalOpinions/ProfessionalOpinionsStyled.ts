@@ -14,7 +14,7 @@ const ProfessionalOpinionsStyled = styled.div`
     color: ${(props) => props.theme.colors.secondary};
     font-size: ${(props) => props.theme.fontSizes.regular};
     text-align: center;
-    margin: 20px 0 40px 34px;
+    margin: 20px 0 40px 0;
   }
 
   .opinion-box {

@@ -12,11 +12,12 @@ describe("Given a Footer component", () => {
         </ThemeProvider>
       );
 
-      const messageElement = screen.getByText(
-        "Built, tested, and designed by Tirmary Reyes 🍀"
-      );
+      const messageElement = screen.getByText("Built, tested, and designed by");
+
+      const authorName = screen.getByText("Tirmary Reyes 🍀");
 
       expect(messageElement).toBeInTheDocument();
+      expect(authorName).toBeInTheDocument();
     });
 
     test("Then it should show a message '© {new Date().getFullYear()} All rights reserved.'", () => {
