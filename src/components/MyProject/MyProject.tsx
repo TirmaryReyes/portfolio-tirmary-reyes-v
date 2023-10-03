@@ -38,7 +38,7 @@ const MyProject = (): React.ReactElement => {
       >
         <h2>Go to project</h2>
       </a>
-      <div className="main-project">
+      <div className="main-project">h
         <span className="main-project__description">
           Is a user-friendly CRUD application that allows users to add, edit,
           and delete their plant collection.
