@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+
 *,
 ::before,
 ::after {
@@ -18,6 +19,9 @@ h3,
 h4 {
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  font-family: "Montserrat";
+  
 }
 
 ul {
@@ -39,14 +43,10 @@ a {
 }
 
 button {
-  cursor: pointer;
   border: none;
   padding: 0;
 }
 
-img {
-  max-width: 100%;
-}
 `;
 
 export default GlobalStyle;
