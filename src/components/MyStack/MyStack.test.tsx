@@ -115,6 +115,16 @@ test("Then it should show a jest logo", () => {
   expect(altText).toBeInTheDocument();
 });
 
+test("Then it should show a vite logo", () => {
+  const expectedAltText = "vite logo";
+
+  renderWithProviders(wrapWithRouter(<MyStack />));
+
+  const altText = screen.getByAltText(expectedAltText);
+
+  expect(altText).toBeInTheDocument();
+});
+
 test("Then it should show a git logo", () => {
   const expectedAltText = "git logo";
 

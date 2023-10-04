@@ -51,7 +51,7 @@ const ProfessionalOpinionsStyled = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px;
+    padding: 20px;
     border-radius: 10px;
     max-width: 400px;
     margin: 0 auto;
@@ -69,6 +69,10 @@ const ProfessionalOpinionsStyled = styled.div`
   .star {
     color: #ccc;
     color: gold;
+  }
+
+  @media (min-width: 640px) {
+    text-align: center;
   }
 `;
 
