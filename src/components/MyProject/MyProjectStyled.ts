@@ -38,15 +38,13 @@ const MyProjectStyled = styled.div`
     margin: 30px;
     max-width: 200px;
   }
-
   .main-project {
     text-align: center;
     display: flex;
     align-items: center;
-    text-align: center;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 20px;
+    padding: 47px;
     margin: 0 auto;
     font-size: ${(props) => props.theme.fontSizes.regular};
     max-width: 800px;
@@ -54,7 +52,6 @@ const MyProjectStyled = styled.div`
 
     &__title {
       font-weight: ${(props) => props.theme.fontWeigth.bold};
-      font-size: ${(props) => props.theme.fontSizes.regular};
       font-size: ${(props) => props.theme.fontSizes.regular};
       display: flex;
       flex-wrap: wrap;
@@ -66,22 +63,10 @@ const MyProjectStyled = styled.div`
       font-size: ${(props) => props.theme.fontSizes.regular};
     }
   }
-  .project-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    margin: 0 auto;
-  }
 
-  .project-slide img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  @media (min-width: 520px) {
-    .images-container {
-      justify-content: flex-start;
+  @media (min-width: 640px) {
+    .main-project {
+      justify-content: center;
     }
   }
 `;

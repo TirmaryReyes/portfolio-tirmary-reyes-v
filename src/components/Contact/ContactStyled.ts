@@ -9,7 +9,6 @@ const ContactStyled = styled.article`
   justify-content: space-between;
   padding: 40px 10px 10px 10px;
   gap: 25px;
-  margin-left: 10px;
   text-align: center;
 
   .main-title {
@@ -35,11 +34,18 @@ const ContactStyled = styled.article`
     margin: 20px;
     flex-direction: column;
   }
+  .social-icons {
+    padding: 20px 0 20px 10px;
+  }
 
   .linkedin,
   .twitter,
   .github {
     margin-right: 30px;
+  }
+
+  @media (min-width: 640px) {
+    justify-content: center;
   }
 `;
 

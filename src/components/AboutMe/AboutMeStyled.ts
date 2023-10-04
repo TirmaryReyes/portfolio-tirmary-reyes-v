@@ -14,7 +14,7 @@ const AboutMeStyled = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 18px;
 
     .main-title__explication {
@@ -33,28 +33,35 @@ const AboutMeStyled = styled.div`
 
     .profession {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
+    }
+
+    &__graduation-cap {
+      display: block;
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .profession__studies {
+      display: flex;
       flex-wrap: wrap;
+      gap: 20px;
+      padding: 18px 36px 20px 20px;
+      font-weight: ${(props) => props.theme.fontWeigth.bold};
+      font-size: ${(props) => props.theme.fontSizes.regular};
+      text-align: center;
+    }
 
-      &__graduation-cap {
-        display: block;
-        max-width: 100%;
-      }
+    &__profession {
+      font-weight: ${(props) => props.theme.fontWeigth.bold};
+      font-size: ${(props) => props.theme.fontSizes.regular};
+    }
+  }
 
-      &__studies {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        padding: 18px 36px 20px 20px;
-        font-weight: ${(props) => props.theme.fontWeigth.bold};
-        font-size: ${(props) => props.theme.fontSizes.regular};
-      }
-
-      &__profession {
-        font-weight: ${(props) => props.theme.fontWeigth.bold};
-        font-size: ${(props) => props.theme.fontSizes.regular};
-      }
+  @media (min-width: 640px) {
+    .main-container .profession__studies {
+      justify-content: center;
     }
   }
 `;
