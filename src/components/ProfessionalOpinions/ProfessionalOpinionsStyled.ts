@@ -53,7 +53,7 @@ const ProfessionalOpinionsStyled = styled.div`
     align-items: center;
     padding: 20px;
     border-radius: 10px;
-    max-width: 400px;
+    max-width: 800px;
     margin: 0 auto;
     line-height: 1.5;
   }

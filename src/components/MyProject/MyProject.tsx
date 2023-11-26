@@ -4,15 +4,17 @@ import MyProjectStyled from "./MyProjectStyled";
 
 const MyProject = (): React.ReactElement => {
   const images = [
-    "/images/currently-work.svg",
-    "/images/currently.svg",
-    "/images/form.svg",
+    "/images/main.svg",
+    "/images/description.svg",
+    "/images/place.svg",
+    "/images/placeDescription.svg",
+    "/images/gps.svg",
   ];
 
   return (
     <MyProjectStyled id="my-project-section">
       <h1 className="title">Currently working on</h1>
-      <span className="main-project__title"> Sand Rose Plant Deco: </span>
+      <span className="main-project__title"> Summit Venture: </span>
       <Carousel
         showThumbs={false}
         autoPlay
@@ -32,16 +34,16 @@ const MyProject = (): React.ReactElement => {
       </Carousel>
       <a
         className="go-to-project"
-        href="https://tirmary-reyes-final-project-front.netlify.app/home"
+        href="https://www.figma.com/file/N1CBmbK7IveFJXFJHh4P5d/Untitled?type=design&node-id=61-39&mode=design&t=p10Xj9RDZQtLyXIc-0"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <h2>Go to project</h2>
+        <h2>Go to Figma Design</h2>
       </a>
       <div className="main-project">
         <span className="main-project__description">
           Is a user-friendly CRUD application that allows users to add, edit,
-          and delete their plant collection.
+          and delete their place collection.
         </span>
         <span className="main-project__technologies">
           It leverages technologies such as React, Redux, TypeScript, MongoDB,
