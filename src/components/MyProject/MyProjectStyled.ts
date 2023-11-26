@@ -36,7 +36,7 @@ const MyProjectStyled = styled.div`
 
   .project {
     margin: 30px;
-    max-width: 200px;
+    max-width: 300px;
   }
   .main-project {
     text-align: center;
